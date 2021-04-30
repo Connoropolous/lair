@@ -30,7 +30,8 @@ struct Opt {
         long,
         env = "LAIR_DIR",
         help = "Can be used to override the default keystore
-directory to run multiple instances or for other purposes"
+directory in order to run multiple
+instances or for other purposes"
     )]
     lair_dir: Option<std::path::PathBuf>,
 }
